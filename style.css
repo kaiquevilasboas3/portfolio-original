@@ -1,0 +1,180 @@
+body {
+    padding:0px;
+    margin:0px;
+    background-color: rgb(22, 22, 22);
+}
+
+.container {
+    width:1400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height:120px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+}
+.logo img {
+    width:50px;
+    height:50px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin:0px;
+    padding: 0px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding:15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    background-color: #FFF;
+    color:#000;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+section {
+    padding:0px;
+    margin:0 auto;
+}
+
+section.container {
+   display: flex; /* Ativa o Flexbox */
+   flex-direction: column; /* Organiza os elementos em coluna */
+   align-items: center; /* Centraliza horizontalmente */
+   justify-content: center; /* Centraliza verticalmente */
+   text-align: center; /* Centraliza o texto */
+   height: 100vh; /* Ocupa toda a altura da viewport */
+   width:900px;
+   line-height: 1.5;
+   padding: 20px; /* Espaço interno opcional */
+   color: #727272; /* Exemplo de cor do texto */
+}
+    
+.column img {
+    max-width: 100%; /* Garante que a imagem não exceda o container */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+    width:300px;
+    height:300px;
+    border-radius: 100%;
+    
+}
+
+.sec-first-bot h1 {
+    font-size: 30px;
+}
+
+
+.sec-second {
+    background-color: #1d1c1c;
+    height:200px;
+    margin-bottom:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-second img {
+    width:70px;
+    height:70px;
+    margin-left:70px;
+    margin-right:70px;
+}
+
+
+
+
+.container.third {
+    
+    width:700px;
+    height:800px;
+}
+
+.section-projects h1 {
+    font-size: 25px;
+}
+
+
+
+.section-projects-jobs {
+    width:100vw;
+    max-width: 1400px;
+    margin-top:30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-projects-job {
+    width:300px;
+}
+.section-projects-job-area {
+    margin:10px;
+    width:260px;
+    height:300px;
+}
+.section-projects-job-area img {
+    width:inherit;
+    height:inherit;
+}
+.section-projects-job-info {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height:inherit;
+    width: inherit;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-projects-job-info h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color:#FFF;
+}
+.section-projects-job-area:hover .section-projects-job-info {
+    display: flex;
+}
+.section-projects-job-info p {
+    color:#FFF;
+    width:200px;
+}
+.section-projects-job-info button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+   
+    
+
+
+  
